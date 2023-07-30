@@ -4,7 +4,7 @@ type MainProps = {
   offersCount: number;
 };
 
-function MainPage({ offersCount }: MainProps): JSX.Element {
+function Main({ offersCount }: MainProps): JSX.Element {
   return (
     <div className="page page--gray page--main">
       <header className="header">
@@ -132,4 +132,4 @@ function MainPage({ offersCount }: MainProps): JSX.Element {
   );
 }
 
-export default MainPage;
+export default Main;
