@@ -1,4 +1,4 @@
-function MainPageEmpty() {
+function MainEmpty() {
   return (
     <div className="page page--gray page--main">
       <header className="header">
@@ -99,4 +99,4 @@ function MainPageEmpty() {
   );
 }
 
-export default MainPageEmpty;
+export default MainEmpty;

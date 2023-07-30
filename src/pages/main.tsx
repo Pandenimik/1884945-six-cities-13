@@ -1,10 +1,10 @@
-import PlaceCard from '../../components/place-card/place-card';
+import PlaceCard from '../components/place-card/place-card';
 
-type MainPageProps = {
+type MainProps = {
   offersCount: number;
 };
 
-function MainPage({ offersCount }: MainPageProps): JSX.Element {
+function MainPage({ offersCount }: MainProps): JSX.Element {
   return (
     <div className="page page--gray page--main">
       <header className="header">
